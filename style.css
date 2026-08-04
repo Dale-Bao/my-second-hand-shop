@@ -1,11 +1,100 @@
+css_content = """/* =========================================
+   全局基础样式 (重置浏览器默认边距，设置字体)
+========================================= */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f7f9fa; /* 浅灰背景色，让白色卡片更突出 */
+    color: #333;
+    line-height: 1.6;
+}
+
 /* =========================================
-   新增：图片外层包裹与多图角标
+   顶部标题区域
+========================================= */
+header {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 3rem 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    color: #7f8c8d;
+    font-size: 1.1rem;
+}
+
+/* =========================================
+   商品网格布局 (自适应核心)
+========================================= */
+.grid-container {
+    display: grid;
+    /* 核心魔法：卡片最小300px宽，屏幕变宽时自动增加列数 */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 0 2rem 4rem;
+    max-width: 1200px; /* 限制最大宽度，超大屏也不会显得太空旷 */
+    margin: 0 auto;    /* 居中对齐 */
+}
+
+/* =========================================
+   商品卡片设计
+========================================= */
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex; 
+    flex-direction: column; 
+    height: 100%; /* 确保卡片撑满网格高度，底部对齐 */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* =========================================
+   首图容器与图片 (严格统一大小)
 ========================================= */
 .image-wrapper {
     position: relative;
-    cursor: pointer; /* 鼠标放上去变成小手，提示可点击 */
+    cursor: pointer;
+    width: 100%;
+    height: 220px; /* 强制固定首图高度 */
+    overflow: hidden; /* 超出容器的部分隐藏 */
+    flex-shrink: 0; /* 防止图片被挤压 */
 }
 
+/* 确保图片完美填充且不变形 */
+.card img {
+    width: 100%;
+    height: 100%; /* 完全填满 220px 的容器 */
+    object-fit: cover; /* 核心魔法：保持比例放大填充，多余部分自动裁切 */
+    display: block;
+    transition: transform 0.4s ease; /* 图片缩放动画 */
+}
+
+/* 鼠标悬浮在卡片上时，图片微微放大，增强点击欲 */
+.card:hover img {
+    transform: scale(1.05); 
+}
+
+/* 多图提示角标 */
 .img-badge {
     position: absolute;
     top: 10px;
@@ -20,7 +109,73 @@
 }
 
 /* =========================================
-   新增：图片查看器 (模态框)
+   卡片内部文字与信息 (强制截断排版)
+========================================= */
+.card-content {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* 让内容区自动撑开，保证状态标签在最底部 */
+}
+
+.card-content h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #2f3542;
+    font-weight: 600;
+    
+    /* 标题严格限制为 1 行 */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ff4757; 
+    margin-bottom: 0.75rem;
+}
+
+.desc {
+    color: #747d8c;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    flex-grow: 1; /* 让描述部分占据剩余空间，将状态标签挤到底部 */
+    
+    /* 描述严格限制为 2 行 */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+}
+
+/* =========================================
+   状态标签 (在售 / 已售出)
+========================================= */
+.status {
+    align-self: flex-start; /* 根据文字宽度自适应 */
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.active {
+    background-color: #e3fbed;
+    color: #2ed573;
+}
+
+.sold {
+    background-color: #f1f2f6;
+    color: #a4b0be;
+    text-decoration: line-through;
+}
+
+/* =========================================
+   图片查看器画廊 (模态框)
 ========================================= */
 .modal {
     display: none; /* 默认隐藏 */
@@ -30,8 +185,8 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.85); /* 半透明纯黑背景 */
-    backdrop-filter: blur(5px);            /* 背景模糊化 */
+    background-color: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(5px);
     align-items: center;
     justify-content: center;
 }
@@ -86,7 +241,7 @@
     border-radius: 50%;
     margin: 0 20px;
     transition: background 0.3s ease;
-    display: none; /* 默认隐藏，JS根据是否有单图来判断是否展示 */
+    display: none;
 }
 
 .nav-btn:hover {
@@ -100,3 +255,9 @@
     font-size: 0.9rem;
     letter-spacing: 1px;
 }
+"""
+
+with open("/mnt/data/style.css", "w") as f:
+    f.write(css_content)
+
+print("CSS saved to /mnt/data/style.css")
