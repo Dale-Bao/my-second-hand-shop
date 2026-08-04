@@ -103,7 +103,7 @@
             "images/air-oven1.jpg",
             "images/air-oven2.jpg"
         ],
-        "status": "在售"
+        "status": "售出"
     },
     {
         "id": 10,
@@ -114,7 +114,7 @@
             "images/rice-cooker.jpg",
             "images/rice-cooker1.jpg"
         ],
-        "status": "在售"
+        "status": "售出"
     },
     {
         "id": 11,
