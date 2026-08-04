@@ -7,14 +7,13 @@
         "images": [
             "images/cafe.jpg",
             "images/cafe1.jpg",
-            "images/cafe2.jpg",
-            "images/cafe3.jpg"
+            "images/cafe2.jpg"
         ],
         "status": "在售"
     },
     {
         "id": 2,
-        "name": "人体工学椅",
+        "name": "宜家人体工学椅",
         "price": "30欧",
         "description": "搬家出，功能完好，靠背可调节",
         "images": [
@@ -22,6 +21,40 @@
             "images/chaise2.jpg",
             "images/chaise3.jpg",
             "images/chaise4.jpg"
+        ],
+        "status": "在售"
+    },
+    {
+        "id": 3,
+        "name": "宜家晾衣架",
+        "price": "8欧",
+        "description": "搬家出，功能完好，160x70x70cm",
+        "images": [
+            "images/jia.jpg",
+            "images/jia1.jpg"
+        ],
+        "status": "在售"
+    },
+    {
+        "id": 4,
+        "name": "DAEWOO蒸汽电熨斗",
+        "price": "8欧",
+        "description": "搬家出，功能完好，加水。蒸汽加热，送垫子",
+        "images": [
+            "images/oven.jpg",
+            "images/oven1.jpg",
+            "images/oven3.jpg"
+        ],
+        "status": "在售"
+    },
+    {
+        "id": 5,
+        "name": "家用小烤箱",
+        "price": "5欧",
+        "description": "搬家出，功能完好，适合烤pizza、面包、鸡翅等",
+        "images": [
+            "images/four.jpg",
+            "images/four1.jpg"
         ],
         "status": "在售"
     }
