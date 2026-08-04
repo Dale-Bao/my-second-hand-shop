@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Sony A7M3 相机",
+    "price": "¥ 8,500",
+    "description": "自用9新，快门数1万左右，箱说全，送两块备用电池。",
+    "image": "images/item1.jpg",
+    "status": "在售"
+  },
+  {
+    "id": 2,
+    "name": "人体工学椅",
+    "price": "¥ 300",
+    "description": "搬家出，功能完好，靠背可调节。仅限同城自提。",
+    "image": "images/item2.jpg",
+    "status": "已售出"
+  }
+]
