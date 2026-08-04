@@ -1,24 +1,27 @@
 [
-  {
-    "id": 1,
-    "name": "Sony A7M3 相机",
-    "price": "¥ 8,500",
-    "description": "自用9新，快门数1万左右，箱说全，送两块备用电池。",
-    "images": [
-      "images/item1_1.jpg",
-      "images/item1_2.jpg",
-      "images/item1_3.jpg"
-    ],
-    "status": "在售"
-  },
-  {
-    "id": 2,
-    "name": "人体工学椅",
-    "price": "¥ 300",
-    "description": "搬家出，功能完好，靠背可调节。仅限同城自提。",
-    "images": [
-      "images/item2_1.jpg"
-    ],
-    "status": "已售出"
-  }
+    {
+        "id": 1,
+        "name": "AICOOK咖啡机",
+        "price": "6欧",
+        "description": "美式咖啡机，一次可做1-6杯",
+        "images": [
+            "images/cafe.jpg",
+            "images/cafe1.jpg",
+            "images/cafe2.jpg"
+        ],
+        "status": "在售"
+    },
+    {
+        "id": 2,
+        "name": "人体工学椅",
+        "price": "30欧",
+        "description": "搬家出，功能完好，靠背可调节",
+        "images": [
+            "images/chaise1.jpg",
+            "images/chaise2.jpg",
+            "images/chaise3.jpg",
+            "images/chaise4.jpg"
+        ],
+        "status": "在售"
+    }
 ]
