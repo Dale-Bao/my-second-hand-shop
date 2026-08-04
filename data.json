@@ -57,5 +57,27 @@
             "images/four1.jpg"
         ],
         "status": "在售"
+    },
+    {
+        "id": 6,
+        "name": "宜家桌子",
+        "price": "35欧",
+        "description": "搬家出，功能完好,可拆卸，送桌面增高架，115x75x66cm",
+        "images": [
+            "images/noir.jpg",
+            "images/noir1.jpg"
+        ],
+        "status": "在售"
+    },
+    {
+        "id": 7,
+        "name": "宜家桌子",
+        "price": "20欧",
+        "description": "搬家出，功能完好,可拆卸，可调节高度，150x75x64cm",
+        "images": [
+            "images/blanc.jpg",
+            "images/blanc1.jpg"
+        ],
+        "status": "在售"
     }
 ]
