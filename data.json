@@ -125,5 +125,29 @@
             "images/tapis.jpg"
         ],
         "status": "在售"
+    },
+    {
+        "id": 12,
+        "name": "自行车-M",
+        "price": "60欧",
+        "description": "搬家出，功能完好，迪卡侬B'Twin品牌",
+        "images": [
+            "images/velo 1.jpg",
+            "images/velo 2.jpg",
+            "images/velo 3.jpg"
+        ],
+        "status": "在售"
+    },
+    {
+        "id": 13,
+        "name": "自行车-L",
+        "price": "60欧",
+        "description": "搬家出，功能完好，ROCKRIDER品牌",
+        "images": [
+            "images/velo 4.jpg",
+            "images/velo 5.jpg",
+            "images/velo 6.jpg"
+        ],
+        "status": "在售"
     }
 ]
