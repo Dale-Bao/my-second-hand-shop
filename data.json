@@ -92,5 +92,38 @@
             "images/micro-onde1.jpg"
         ],
         "status": "在售"
+    },
+    {
+        "id": 9,
+        "name": "空气炸锅",
+        "price": "10欧",
+        "description": "搬家出，功能完好",
+        "images": [
+            "images/air-oven.jpg",
+            "images/air-oven1.jpg",
+            "images/air-oven2.jpg"
+        ],
+        "status": "在售"
+    },
+    {
+        "id": 10,
+        "name": "电饭锅",
+        "price": "8欧",
+        "description": "搬家出，功能完好，适合1-2人",
+        "images": [
+            "images/rice-cook.jpg",
+            "images/rice-cook1.jpg"
+        ],
+        "status": "在售"
+    },
+    {
+        "id": 11,
+        "name": "冬被",
+        "price": "8欧",
+        "description": "搬家出，功能完好，1.4x2m",
+        "images": [
+            "images/tapis.jpg"
+        ],
+        "status": "在售"
     }
 ]
