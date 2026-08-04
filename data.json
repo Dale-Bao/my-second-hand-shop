@@ -3,7 +3,7 @@
         "id": 1,
         "name": "AICOOK咖啡机",
         "price": "6欧",
-        "description": "美式咖啡机，可磨咖啡豆，一次可做1-6杯",
+        "description": "美式咖啡机，可磨豆子，一次可做1-6杯",
         "images": [
             "images/cafe.jpg",
             "images/cafe1.jpg",
@@ -147,6 +147,28 @@
             "images/velo 4.jpg",
             "images/velo 5.jpg",
             "images/velo 6.jpg"
+        ],
+        "status": "在售"
+    },
+    {
+        "id": 14,
+        "name": "电子琴",
+        "price": "8欧",
+        "description": "搬家出，功能完好，无延音功能",
+        "images": [
+            "images/piano.jpg",
+            "images/piano2.jpg",
+            "images/piano3.jpg"
+        ],
+        "status": "在售"
+    },
+    {
+        "id": 15,
+        "name": "电视机",
+        "price": "5欧",
+        "description": "搬家出，功能完好，可做27寸拓展屏，无HDMI线",
+        "images": [
+            "images/tele.jpg"
         ],
         "status": "在售"
     }
