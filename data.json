@@ -81,5 +81,16 @@
             "images/blanc1.jpg"
         ],
         "status": "在售"
+    },
+    {
+        "id": 8,
+        "name": "微波炉",
+        "price": "8欧",
+        "description": "搬家出，功能完好",
+        "images": [
+            "images/micro-onde.jpg",
+            "images/micro-onde1.jpg"
+        ],
+        "status": "在售"
     }
 ]
