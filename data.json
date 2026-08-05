@@ -171,5 +171,16 @@
             "images/tele.jpg"
         ],
         "status": "在售"
+    },
+    {
+        "id": 16,
+        "name": "购物小推车",
+        "price": "5欧",
+        "description": "搬家出，功能完好",
+        "images": [
+            "images/chariot.jpg",
+            "images/chariot1.jpg"
+        ],
+        "status": "在售"
     }
 ]
