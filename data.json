@@ -111,7 +111,8 @@
         "description": "搬家出，自选",
         "images": [
             "images/livre.jpg",
-            "images/livre1.jpg"
+            "images/livre1.jpg",
+            "images/livre2.jpg"
         ],
         "status": "在售"
     },
