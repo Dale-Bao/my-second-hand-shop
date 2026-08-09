@@ -26,40 +26,6 @@
     },
     {
         "id": 3,
-        "name": "宜家晾衣架",
-        "price": "8欧",
-        "description": "搬家出，功能完好，160x70x70cm",
-        "images": [
-            "images/jia.jpg",
-            "images/jia1.jpg"
-        ],
-        "status": "已售出"
-    },
-    {
-        "id": 4,
-        "name": "DAEWOO蒸汽电熨斗",
-        "price": "8欧",
-        "description": "搬家出，功能完好，加水。蒸汽加热，送垫子",
-        "images": [
-            "images/oven.jpg",
-            "images/oven1.jpg",
-            "images/oven3.jpg"
-        ],
-        "status": "已售出"
-    },
-    {
-        "id": 5,
-        "name": "家用小烤箱",
-        "price": "5欧",
-        "description": "搬家出，功能完好，适合烤pizza、面包、鸡翅等",
-        "images": [
-            "images/four.jpg",
-            "images/four1.jpg"
-        ],
-        "status": "已售出"
-    },
-    {
-        "id": 6,
         "name": "宜家桌子",
         "price": "35欧",
         "description": "搬家出，功能完好,可拆卸，送桌面增高架，115x75x66cm",
@@ -72,7 +38,7 @@
         "status": "在售"
     },
     {
-        "id": 7,
+        "id": 4,
         "name": "宜家桌子",
         "price": "15欧",
         "description": "搬家出，功能完好,可拆卸，可调节高度，150x75x64cm",
@@ -83,41 +49,7 @@
         "status": "在售"
     },
     {
-        "id": 8,
-        "name": "微波炉",
-        "price": "8欧",
-        "description": "搬家出，功能完好",
-        "images": [
-            "images/micro-onde.jpg",
-            "images/micro-onde1.jpg"
-        ],
-        "status": "已售出"
-    },
-    {
-        "id": 9,
-        "name": "空气炸锅",
-        "price": "10欧",
-        "description": "搬家出，功能完好",
-        "images": [
-            "images/air-oven.jpg",
-            "images/air-oven1.jpg",
-            "images/air-oven2.jpg"
-        ],
-        "status": "已售出"
-    },
-    {
-        "id": 10,
-        "name": "电饭锅",
-        "price": "8欧",
-        "description": "搬家出，功能完好，适合1-2人",
-        "images": [
-            "images/rice-cooker.jpg",
-            "images/rice-cooker1.jpg"
-        ],
-        "status": "已售出"
-    },
-    {
-        "id": 11,
+        "id": 5,
         "name": "冬被",
         "price": "5欧",
         "description": "搬家出，功能完好，1.4x2m",
@@ -127,7 +59,7 @@
         "status": "在售"
     },
     {
-        "id": 12,
+        "id": 6,
         "name": "自行车-M",
         "price": "50欧",
         "description": "搬家出，功能完好，迪卡侬B'Twin品牌",
@@ -139,7 +71,7 @@
         "status": "在售"
     },
     {
-        "id": 13,
+        "id": 7,
         "name": "自行车-L",
         "price": "50欧",
         "description": "搬家出，功能完好，ROCKRIDER品牌",
@@ -151,7 +83,7 @@
         "status": "在售"
     },
     {
-        "id": 14,
+        "id": 8,
         "name": "电子琴",
         "price": "6欧",
         "description": "搬家出，功能完好，无延音功能",
@@ -163,7 +95,7 @@
         "status": "在售"
     },
     {
-        "id": 15,
+        "id": 9,
         "name": "电视机",
         "price": "0欧",
         "description": "搬家出，功能完好，可做27寸拓展屏，无HDMI线",
@@ -173,18 +105,7 @@
         "status": "在售"
     },
     {
-        "id": 16,
-        "name": "购物小推车",
-        "price": "5欧",
-        "description": "搬家出，功能完好",
-        "images": [
-            "images/chariot.jpg",
-            "images/chariot1.jpg"
-        ],
-        "status": "已售出"
-    },
-    {
-        "id": 17,
+        "id": 10,
         "name": "0元区",
         "price": "0欧",
         "description": "搬家出，自选",
@@ -193,5 +114,84 @@
             "images/livre1.jpg"
         ],
         "status": "在售"
+    },
+    {
+        "id": 11,
+        "name": "宜家晾衣架",
+        "price": "8欧",
+        "description": "搬家出，功能完好，160x70x70cm",
+        "images": [
+            "images/jia.jpg",
+            "images/jia1.jpg"
+        ],
+        "status": "已售出"
+    },
+    {
+        "id": 12,
+        "name": "DAEWOO蒸汽电熨斗",
+        "price": "8欧",
+        "description": "搬家出，功能完好，加水。蒸汽加热，送垫子",
+        "images": [
+            "images/oven.jpg",
+            "images/oven1.jpg",
+            "images/oven3.jpg"
+        ],
+        "status": "已售出"
+    },
+    {
+        "id": 13,
+        "name": "家用小烤箱",
+        "price": "5欧",
+        "description": "搬家出，功能完好，适合烤pizza、面包、鸡翅等",
+        "images": [
+            "images/four.jpg",
+            "images/four1.jpg"
+        ],
+        "status": "已售出"
+    },
+    {
+        "id": 14,
+        "name": "微波炉",
+        "price": "8欧",
+        "description": "搬家出，功能完好",
+        "images": [
+            "images/micro-onde.jpg",
+            "images/micro-onde1.jpg"
+        ],
+        "status": "已售出"
+    },
+    {
+        "id": 15,
+        "name": "空气炸锅",
+        "price": "10欧",
+        "description": "搬家出，功能完好",
+        "images": [
+            "images/air-oven.jpg",
+            "images/air-oven1.jpg",
+            "images/air-oven2.jpg"
+        ],
+        "status": "已售出"
+    },
+    {
+        "id": 16,
+        "name": "电饭锅",
+        "price": "8欧",
+        "description": "搬家出，功能完好，适合1-2人",
+        "images": [
+            "images/rice-cooker.jpg",
+            "images/rice-cooker1.jpg"
+        ],
+        "status": "已售出"
+    },
+    {
+        "id": 17,
+        "name": "购物小推车",
+        "price": "5欧",
+        "description": "搬家出，功能完好",
+        "images": [
+            "images/chariot.jpg",
+            "images/chariot1.jpg"
+        ],
+        "status": "已售出"
     }
 ]
