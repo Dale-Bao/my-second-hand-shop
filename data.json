@@ -33,7 +33,7 @@
             "images/jia.jpg",
             "images/jia1.jpg"
         ],
-        "status": "在售"
+        "status": "已售出"
     },
     {
         "id": 4,
@@ -56,7 +56,7 @@
             "images/four.jpg",
             "images/four1.jpg"
         ],
-        "status": "在售"
+        "status": "已售出"
     },
     {
         "id": 6,
@@ -91,7 +91,7 @@
             "images/micro-onde.jpg",
             "images/micro-onde1.jpg"
         ],
-        "status": "在售"
+        "status": "已售出"
     },
     {
         "id": 9,
@@ -165,7 +165,7 @@
     {
         "id": 15,
         "name": "电视机",
-        "price": "5欧",
+        "price": "0欧",
         "description": "搬家出，功能完好，可做27寸拓展屏，无HDMI线",
         "images": [
             "images/tele.jpg"
@@ -180,6 +180,17 @@
         "images": [
             "images/chariot.jpg",
             "images/chariot1.jpg"
+        ],
+        "status": "已售出"
+    },
+    {
+        "id": 17,
+        "name": "0元区",
+        "price": "0欧",
+        "description": "搬家出，自选",
+        "images": [
+            "images/livre.jpg",
+            "images/livre1.jpg"
         ],
         "status": "在售"
     }
